@@ -8,6 +8,8 @@ const mybutton7=document.getElementById('button7');
 const mybutton8=document.getElementById('button8');
 const mybutton9=document.getElementById('button9');
 
+const resetbutton=document.getElementById('resetbutton');
+
 let check=true;
 
 let button1= mybutton1.innerHTML;
@@ -154,4 +156,17 @@ function checktie(){
             }
         }
     }
+}
+
+
+function resetscore(){
+    mybutton1.innerHTML='';
+    mybutton2.innerHTML='';
+    mybutton3.innerHTML='';
+    mybutton4.innerHTML='';
+    mybutton5.innerHTML='';
+    mybutton6.innerHTML='';
+    mybutton7.innerHTML='';
+    mybutton8.innerHTML='';
+    mybutton9.innerHTML='';
 }
