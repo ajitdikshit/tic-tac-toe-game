@@ -52,3 +52,20 @@ p:hover{
     transform: scale(1.1);
     text-shadow: 2px 2px 20px blue;
 }
+.reset{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    transition:0.3s;
+    box-shadow: 0 0 10px blue;
+    align-self: center;
+}
+.reset:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 50px blue;
+}
