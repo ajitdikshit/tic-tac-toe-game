@@ -125,12 +125,14 @@ mybutton9.addEventListener('click',function(){
 function checkwinnerx(){
     if((mybutton1.innerHTML=='×' && mybutton2.innerHTML=='×' && mybutton3.innerHTML=='×') || (mybutton1.innerHTML=='×' && mybutton4.innerHTML=='×' && mybutton7.innerHTML=='×') || (mybutton1.innerHTML=='×' && mybutton5.innerHTML=='×' && mybutton9.innerHTML=='×') || (mybutton2.innerHTML=='×' && mybutton5.innerHTML=='×' && mybutton8.innerHTML=='×') || (mybutton3.innerHTML=='×' && mybutton6.innerHTML=='×' && mybutton9.innerHTML=='×') || (mybutton3.innerHTML=='×' && mybutton5.innerHTML=='×' && mybutton7.innerHTML=='×') || (mybutton4.innerHTML=='×' && mybutton5.innerHTML=='×' && mybutton6.innerHTML=='×') || (mybutton7.innerHTML=='×' && mybutton8.innerHTML=='×' && mybutton9.innerHTML=='×')){
         alert('× won');
+        resetscore();
     }
 }
 
 function checkwinnero(){
     if((mybutton1.innerHTML=='o' && mybutton2.innerHTML=='o' && mybutton3.innerHTML=='o') || (mybutton1.innerHTML=='o' && mybutton4.innerHTML=='o' && mybutton7.innerHTML=='o') || (mybutton1.innerHTML=='o' && mybutton5.innerHTML=='o' && mybutton9.innerHTML=='o') || (mybutton2.innerHTML=='o' && mybutton5.innerHTML=='o' && mybutton8.innerHTML=='o') || (mybutton3.innerHTML=='o' && mybutton6.innerHTML=='o' && mybutton9.innerHTML=='o') || (mybutton3.innerHTML=='o' && mybutton5.innerHTML=='o' && mybutton7.innerHTML=='o') || (mybutton4.innerHTML=='o' && mybutton5.innerHTML=='o' && mybutton6.innerHTML=='o') || (mybutton7.innerHTML=='o' && mybutton8.innerHTML=='o' && mybutton9.innerHTML=='o')){
         alert('o won');
+        resetscore();
     }
 }
 
